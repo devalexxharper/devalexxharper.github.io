@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexx Harper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shotcut icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" media="(max-width: 480px)" href="./mobileStyle.css" />
+  <link rel="stylesheet" media="(max-width: 960px)" href="./tabletStyle.css" />
+</head>
+
+<body>
+  <div class="fixed">
+    <header>
+      <div>
+        <h1 class="namme">Alexx Harper</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/devalexxharper" target="blank"><i id="icon" class="fa-brands fa-github"></i>
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/devalexxharper/" target="blank"><i id="icon"
+              class="fa-brands fa-linkedin"></i>
+            LinkedIn </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dev.harper/" target="blank"><i id="icon"
+              class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="malito: alexxharperbr@icloud.com"> <i id="icon" class="fa fa-envelope"></i>
+            E-mail </a>
+        </li>
+      </ul>
+      <div onclick="displaySites()" class="sideMobile">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <div class="showSites" id="showSites" style="display: none;">
+      <div onclick="closeSites()" class="close" id="closeSites">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/devalexxharper" target="blank"><i id="icon" class="fa-brands fa-github"></i>
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/devalexxharper/" target="blank"><i id="icon"
+              class="fa-brands fa-linkedin"></i>
+            LinkedIn </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dev.harper/" target="blank"><i id="icon"
+              class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="malito: alexxharperbr@icloud.com"> <i id="icon" class="fa fa-envelope"></i>
+            E-mail </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <section class="container">
+      <div class="name">
+        <h1>Alexandre Moreira</h1>
+        <h5>Front end & Mobile Developer</h5>
+      </div>
+      <div style="display: none;" class="aboutMe" id="about">
+        <p>
+          Olá, eu sou o Alexx, tenho 23 anos e atualmente estou buscando uma
+          oportunidade de trabalho como desenvolvedor Front-end ou Mobile. Tenho
+          um conhecimento sólido em ReactJS e React Native por serem bem parecidos.
+          Todo o meu conhecimento foi adquirido por conta própria ao longo dos anos,
+          consumindo bastante conteúdos de coisas como a
+          <a href="https://www.rocketseat.com.br/" class="referencies" target="blank"> @Rocketseat</a>,
+          onde aprendi bastante nas Semanas Omnistack e continuo
+          aprendendo nas atuais Next Level Week, também venho consumindo conteúdo da
+          <a href="https://www.gama.academy/" class="referencies" target="blank">@Gamaacademy</a>,
+          iclusive, esse site foi desenvolvido durante a Hiring Coders#3 e está sendo maravilhoso.
+          <br /> Meus contatos e link estão no cabeçário da página, estou disponível para contratação
+          imediata.
+        </p>
+      </div>
+      <div onclick="displayAbout()" id="arrow">
+        <i id="animation" class="fas fa-sort-down"></i>
+      </div>
+      <div class="playlists">
+        <div class="text">
+          <p>
+            Aqui vai uma indicação das minhas 3 playlist mais ouvidas. Afinal, música faz parte das
+            nossas vidas.
+          </p>
+        </div>
+        <div class="plist">
+          <div id="tracks">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/26DikmmUqVXD3h4O2EkbIY?utm_source=generator&theme=0"
+              width="300px" height="450" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+          <div id="tracks">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/70Gb9GKl6AC3kYxxN8gWuy?utm_source=generator&theme=0"
+              width="300px" height="450px" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+          <div id="tracks">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/7ecjOhrAkcnWMJaJxMUiSK?utm_source=generator&theme=0"
+              width="300px" height="450" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+        <div class="plistShorts">
+          <div class="tracksShorts">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/26DikmmUqVXD3h4O2EkbIY?utm_source=generator&theme=0"
+              width="100%" height="80" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+          <div class="tracksShorts">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/70Gb9GKl6AC3kYxxN8gWuy?utm_source=generator&theme=0"
+              width="100%" height="80" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+          <div class="tracksShorts">
+            <iframe style="border-radius:12px"
+              src="https://open.spotify.com/embed/playlist/1SZ1Y4t53nydliBjkPs1ng?utm_source=generator&theme=0"
+              width="100%" height="80" frameBorder="0" allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <div class="form">
+    <form action="submit" onsubmit="">
+      <p>Caso queira, deixe seu contato!</p>
+      <input type="text" placeholder="Nome e empresa que representa" class="inputC">
+      <input type="email" placeholder="E-mail para retorno" class="inputC">
+      <input type="text" placeholder="Motivo do contato" class="inputC">
+      <button class="inputC"> <i class="fa-solid fa-paper-plane"></i> </button>
+    </form>
+  </div>
+  <div class="emp">
+    <h5>Developed by Alexx Harper</h5>
+  </div>
+  <script>
+    function displayAbout() {
+      let arrow = document.getElementById('animation')
+      arrow.classList.toggle('rotate')
+      let display = document.getElementById('about')
+      display.classList.toggle('active')
+    }
+    function displaySites() {
+      let icon = document.getElementById("showSites")
+      icon.classList.toggle('showedIcons')
+    }
+    function closeSites() {
+      let reverse = document.getElementById("showSites")
+      reverse.classList.remove("showedIcons")
+    }
+  </script>
+</body>
+
+</html>

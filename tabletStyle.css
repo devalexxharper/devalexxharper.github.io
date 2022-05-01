@@ -1,0 +1,162 @@
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    background-image: url("./assets/background2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    align-content: center;
+  }
+
+  header h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  header ul li {
+    display: none;
+  }
+
+  header .sideMobile {
+    display: block;
+    font-size: 25px;
+    transition: 0.2s;
+  }
+
+  .showedIcons {
+    display: flex !important;
+    max-width: 960px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #closeSites {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #21DFCD;
+    border-radius: 50%;
+  }
+
+  .showedIcons ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+    max-width: 370px;
+    width: 90%;
+    height: 400px;
+  }
+
+  .showedIcons ul a i {
+    font-size: 30px;
+  }
+
+  .showedIcons ul li {
+    display: flex;
+    border: 2px solid #21DFCD;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .container .name h1 {
+    font-size: 18px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 2px solid #21DFCD;
+  }
+
+  .container .aboutMe {
+    max-width: 460px;
+    width: 90%;
+    max-height: 700px;
+    margin: 5px;
+  }
+
+  .container .aboutMe p {
+    font-size: 16px;
+  }
+
+  .container .name h5 {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .plist {
+    display: none;
+  }
+
+  .playlists .text {
+    max-width: 360px;
+    width: 90%;
+    max-height: 300px;
+    height: 100%;
+    margin: 5px;
+    bottom: 10px;
+  }
+
+  .playlists .text p {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .plistShorts {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .playlists .text p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    max-width: 360px;
+    width: 90%;
+    max-width: 460px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    padding: 20px;
+    max-width: 360px;
+    width: 90%;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 15px
+  }
+
+  .form .inputC {
+    width: 90%;
+    font-size: 15px;
+  }
+}
