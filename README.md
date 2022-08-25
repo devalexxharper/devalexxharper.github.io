@@ -1,3 +1,1 @@
-devalexxharper.github.io
-# Site pessoal utilazdo para portfólio, está em desenvolvimento e será atualizado com o tempo 
- :)
+# Um simples projeto feito somente com HTML e CSS, uma Landing page usado como sugestão e portfólio. 
